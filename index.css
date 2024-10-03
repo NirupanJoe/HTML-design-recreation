@@ -1,0 +1,246 @@
+@font-face {
+  font-family: 'centuryGothic';
+  src: url('fonts/centuryGothic/centurygothic.ttf');
+
+}
+
+body {
+  font-family: "centuryGothic";
+  background-color: #0F1320;
+}
+
+.container {
+  margin: 6em;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.header {
+  width: 100%;
+  height: 240px;
+  border-bottom-left-radius: 250px;
+  background-color: #fff;
+}
+
+.footer {
+  width: 100%;
+  height: 219px;
+  border-top-right-radius: 250px;
+  background-color: #fff;
+}
+
+.ellipse {
+  width: 82px;
+  height: 82px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+
+.small-ellipse {
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+}
+
+.green {
+  box-shadow: 0px 15px 25px 0px rgb(0 200 0 / 30%);
+  background-color: #22A75D;
+}
+
+.blue {
+  box-shadow: 0px 15px 25px 0px #2278D440;
+  background-color: #2278D4;
+}
+
+.yellow {
+  box-shadow: 0px 15px 25px 0px #FFD10040;
+  background-color: #FFD100;
+}
+
+.red {
+  box-shadow: 0px 15px 25px 0px #E2061340;
+  background-color: #E20613;
+}
+
+.t-green {
+  color: #22A75D;
+}
+
+.t-blue {
+  color: #2278D4;
+}
+
+.t-yellow {
+  color: #FFD100;
+}
+
+.t-red {
+  color: #E20613;
+}
+
+.year {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  color: #fff
+}
+
+.point {
+  font-family: Azo Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
+  width: 14px;
+}
+
+.point-content {
+  width: 332px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  color: #ffffffb3;
+}
+
+.ms-3 {
+  margin-left: 2rem;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-self-end {
+  align-self: flex-end;
+}
+
+.grid {
+  display: grid;
+}
+
+.item-size {
+  width: 367;
+}
+
+.about {
+  flex-wrap: wrap;
+}
+
+.about-title {
+  width: 335;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.about-logo {
+  width: 52;
+  height: 32;
+}
+
+.about-title-text {
+  font-family: Inter;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+  color: #fff;
+}
+
+.about-left-content {
+  width: 50%;
+}
+
+.about-right-content {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+.typography {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.span-one {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: hsla(0, 0%, 100%, 0.5);
+}
+
+.span-two {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.read-more-btn {
+  margin-top: 1rem;
+  width: 147px;
+  height: 48px;
+  border-radius: 52px;
+  border: 2px solid #22A75D;
+  color: #FFFFFF;
+  background: transparent;
+}
+
+.about-right-color {
+  width: 90%;
+  height: 800px;
+  border-radius: 25px;
+  background: linear-gradient(180deg, #ADBFFF 0%, #0039FF 100%);
+}
+
+.about-right-img {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    margin: 1em;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .about {
+    margin: 0;
+  }
+
+  .about-left-content {
+    display: none;
+  }
+
+  .about-right-content {
+    width: 100%;
+  }
+
+  .about-right-color {
+    background: #0039FF;
+    width: 100%;
+    height: 400px;
+  }
+}
